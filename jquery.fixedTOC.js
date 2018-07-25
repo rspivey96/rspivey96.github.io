@@ -23,7 +23,7 @@
                 // Put your initialization code here
 
                 s.tocSub.slideUp();
-                s.tocHeight = base.$el.height() + 20;
+                s.tocHeight = base.$el.height() + 250;
 
                 base.$el.css({
                     top: '-' + s.tocHeight + 'px'
@@ -36,7 +36,7 @@
             doOpenMenu : function () {
 
                 s.tocLink.on(s.menuOpens, function () {
-				
+
                     if (base.$el.hasClass(s.tocUpClass)) {
 
                         s.tocLink.find('span').addClass('rotate');
@@ -49,7 +49,7 @@
 
                     } else {
 
-                        s.tocHeight = base.$el.height() + 20;
+                        s.tocHeight = base.$el.height() + 250;
 
                         s.tocLink.find('span').removeClass('rotate');
 
@@ -123,7 +123,7 @@
 
                 $('#toc-holder').on('mouseleave', function () {
 
-                    s.tocHeight = base.$el.height() + 20;
+                    s.tocHeight = base.$el.height() + 250;
                     s.tocLink.find('span').removeClass('rotate');
 
                     base.$el.animate({
