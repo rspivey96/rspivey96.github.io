@@ -2,13 +2,13 @@ var contentContainer = document.getElementById('contentContainer');
 var contentFrame = document.getElementById('contentFrame');
 
 var typed = new Typed('.write', {
-  strings: ["Developer.", "Soccer Player.", "College Football Lover.", "Amateur Woodworker.", "Expert Netflix Watcher.", "Reed Spivey."],
-  typeSpeed: 140, // typing speed
-  startDelay: 200,
-  backDelay: 200, // pause before backspacing
-  backSpeed: 80,
+  strings: ["Developer.", "Soccer Player.", "College Football Lover.", "Amateur Woodworker.", "Expert Netflixer.", "Reed Spivey."],
+  typeSpeed: 80, // typing speed
+  startDelay: 100,
+  backDelay: 800, // pause before backspacing
+  backSpeed: 150,
   smartBackspace: true,
-  loop: true, // loop on or off (true or false)
+  loop: false, // loop on or off (true or false)
   loopCount: false, // number of loops, false = infinite
   callback: function(){ } // call function after typing is done
 });
