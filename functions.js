@@ -22,3 +22,6 @@ sr.reveal(".prog-lang",{origin:'bottom',duration:400,distance:'20%',easing:'line
 sr.reveal(".apps",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
 sr.reveal(".db",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
 sr.reveal(".work-exp",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
+sr.reveal("#form-container",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
+sr.reveal("#or-container",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
+sr.reveal(".social-grid",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
