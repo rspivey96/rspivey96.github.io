@@ -37,6 +37,13 @@ a img {
   text-transform: uppercase;
 }
 
+.right-resume {
+  float: right;
+  font-size: 11px;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
 .right {
   float: right;
   font-size: 13px;
@@ -374,6 +381,12 @@ ul.toc {
 
 
 /* =========== RESUME SECTION =========== */
+.left-resume {
+  margin-left: 15px;;
+  float: left;
+  font-size: 13px;
+  text-transform: uppercase;
+}
 
 .lang {
   border: 1px solid #50a9d1;
@@ -428,6 +441,15 @@ ul.toc {
 }
 
 /* =========== PROJECT SECTION =========== */
+.hidden-break {
+    display: none;
+}
+
+.proj-title-container {
+  display: inline-block;
+  width: 100%;
+}
+
 .left-proj-title {
   float: left;
   font-size: 13px;
@@ -478,6 +500,7 @@ ul.toc {
 /* =========== CONNECT SECTION =========== */
 #form-container {
     height: auto;
+    width: 80%;
     overflow: hidden;
     text-align: center;
     margin-right: auto;
@@ -786,6 +809,10 @@ hr {
     color: #3ec7d1;
   }
 
+  .hero-text-container {
+    width: 350px;
+  }
+
   .hero-text {
     width: 100%;
     margin-left: 0;
@@ -794,8 +821,26 @@ hr {
     padding-right: 5%;
   }
 
+  .hidden-break {
+    display: inline;
+  }
+
+  .left-resume {
+    margin-left: 20%;
+  }
+
+  .right-resume {
+    float: left;
+    margin-left: 20%;
+  }
+
+  .right-proj-title {
+    float: left;
+  }
+
   .proj-text-container {
       width: 100%;
+      border: 1px solid #3ec7d1;
   }
 
   .proj-text {
@@ -804,7 +849,7 @@ hr {
   }
 
   .proj-img-container {
-    border: 1px solid #999;
+    border: 1px solid #3ec7d1;
     width: 100%;
     height: 100%;
   }
@@ -814,15 +859,11 @@ hr {
     margin-right: 20%;
     width: 60%;
   }
-  
-  /*FIX THIS*/
-  .right-proj-title {
-    float: left;
-  }
 
-  .right-proj-title::after {
-    content: "\A";
-    white-space: pre-line;
+  .social-grid {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
@@ -886,7 +927,7 @@ hr {
   }
 
   #form-container {
-      width: 80%;
+      width: 100%;
   }
 
   .hero-text-container {
@@ -918,8 +959,26 @@ hr {
     height: 2250px;
   }
 
+  .hidden-break {
+    display: inline;
+  }
+
+  .left-resume {
+    margin-left: 20%;
+  }
+
+  .right-resume {
+    float: left;
+    margin-left: 20%;
+  }
+
+  .right-proj-title {
+    float: left;
+  }
+
   .proj-text-container {
-      width: 100%;
+    width: 100%;
+    border: 1px solid #3ec7d1;
   }
 
   .proj-text {
@@ -928,7 +987,7 @@ hr {
   }
 
   .proj-img-container {
-    border: 1px solid #999;
+    border: 1px solid #3ec7d1;
     width: 100%;
     height: 100%;
   }
