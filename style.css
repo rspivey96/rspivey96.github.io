@@ -726,34 +726,6 @@ hr {
 }
 
 /* ============================================================ */
-
-@media screen and (max-width:860px) {
-  .portfolio-thumb {
-    width: 90%;
-  }
-}
-
-
-@media screen and (max-width:700px) {
-  #code, #console {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #illustration {
-    overflow: hidden;
-  }
-
-  #resume .inner {
-    width: 85%;
-  }
-
-  #resume .right {
-    display: none;
-  }
-
-}
-
 @media (max-width: 550px) {
   .toc-holder {
     display: none;
@@ -952,10 +924,6 @@ hr {
   }
 
   .hero-text0 {
-    height: 2250px;
-  }
-
-  #resume {
     height: 2250px;
   }
 
