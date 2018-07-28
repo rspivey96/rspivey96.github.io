@@ -486,7 +486,6 @@ ul.toc {
 
 .proj-img-container {
   float: left;
-  border: 1px solid #999;
   width: 40%;
   height: 100%;
 }
@@ -817,12 +816,11 @@ hr {
   }
 
   .left-resume {
-    margin-left: 20%;
+    margin-left: 0;
   }
 
   .right-resume {
     float: left;
-    margin-left: 20%;
   }
 
   .right-proj-title {
@@ -987,17 +985,35 @@ hr {
     height: 2250px;
   }
 
+  .edu {
+    width: 200px;
+  }
+
+  .lang-contain {
+    width: 325px;
+  }
+
+  .lang {
+    border: none;
+    width: 100%;
+    height: 20px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .hidden-break {
     display: inline;
   }
 
   .left-resume {
-    margin-left: 20%;
+      margin-left: 0;
   }
 
   .right-resume {
     float: left;
-    margin-left: 20%;
   }
 
   .right-proj-title {
