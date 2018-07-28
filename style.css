@@ -51,8 +51,9 @@ a img {
   text-transform: uppercase;
 }
 
-#section-tag {
+.section-tag {
     border-bottom: 2px solid #3ec7d1;
+    padding-top: 30px;
     padding-bottom: 20px;
     margin-bottom: 10px;
     margin-right: auto;
@@ -67,7 +68,14 @@ a img {
 
 .section-container {
   width: 80%;
-  margin: 3% 10% 10% 10%;
+  margin: 3% 10% 5% 10%;
+}
+
+:target:before {
+content:"";
+display:block;
+height:180px; /* fixed header height*/
+margin:-180px 0 0; /* negative fixed header height */
 }
 
 /* ============= TABLE OF CONTENTS (TOC) ============== */
@@ -242,38 +250,33 @@ ul.toc {
   100% { opacity:1; }
 }
 
-.hero-container {
-    margin: 0px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.welcome-container {
+  text-align: center;
+  margin: auto;
+  height: 100vh;
 }
 
-.hero-container-resume {
-    margin: 0px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    padding: 0px;
-    width: 100%;
-    height: auto;
-    overflow: visible;
+.hero-container {
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .hero-image {
-    background-image: url('img/alps.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    -webkit-filter: brightness(90%); /* Safari 6.0 - 9.0 */
-    filter: brightness(90%);
+  background-image: url('img/alps.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: brightness(90%); /* Safari 6.0 - 9.0 */
+  filter: brightness(90%);
 }
 
 .hero-text-container {
@@ -289,16 +292,10 @@ ul.toc {
   height: 100px;
 }
 
-.hero-text4 {
-    text-align: center;
-    margin: auto;
-    height: 680px;
-}
-
 .text-contain {
-    float: right;
-    width: 320px;
-    padding-top: 15px;
+  float: right;
+  width: 320px;
+  padding-top: 15px;
 }
 
 .hero-text-small {
@@ -344,26 +341,26 @@ ul.toc {
 }
 
 .blink_text {
-    animation:.8s blinker linear infinite;
-    -webkit-animation:.8s blinker linear infinite;
-    -moz-animation:.8s blinker linear infinite;
-     color: white;
-    }
-    @-moz-keyframes blinker {
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
-    @-webkit-keyframes blinker {
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
-    @keyframes blinker {
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
+  animation:.8s blinker linear infinite;
+  -webkit-animation:.8s blinker linear infinite;
+  -moz-animation:.8s blinker linear infinite;
+  color: white;
+}
+@-moz-keyframes blinker {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes blinker {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@keyframes blinker {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
 
 .hero-text {
   height: 100%;
@@ -377,7 +374,6 @@ ul.toc {
 }
 
 /* =========== ABOUT SECTION =========== */
-
 
 
 /* =========== RESUME SECTION =========== */
@@ -836,6 +832,47 @@ hr {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  #form-container {
+    width: 100%;
+  }
+
+  #or-container {
+    width: 100%;
+  }
+
+  .social-grid {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .social-grid li {
+    width: 55px;
+    height: 55px;
+  }
+
+  .social-grid li a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-item {
+    width: 62px;
+    height: 62px;
+  }
+
+  .social-info-wrap, .social-info {
+    width: 55px;
+    height: 55px;
+  }
+
+  .social-info-front img, .social-info-back img {
+    padding-top: 8px;
+    padding-left: 8px;
+    height: 45px;
+    width: 45px;
   }
 }
 

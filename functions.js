@@ -15,7 +15,7 @@ var typed = new Typed('.write', {
 
 
 window.sr = ScrollReveal();
-sr.reveal("#section-tag",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
+sr.reveal(".section-tag",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
 sr.reveal(".edu",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
 sr.reveal(".coursework",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
 sr.reveal(".prog-lang",{origin:'bottom',duration:400,distance:'20%',easing:'linear',delay:600,scale:1})
