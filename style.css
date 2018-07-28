@@ -52,18 +52,18 @@ a img {
 }
 
 .section-tag {
-    border-bottom: 2px solid #3ec7d1;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 200px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: white;
-    letter-spacing: 0.4vw;
+  border-bottom: 2px solid #3ec7d1;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 0.4vw;
 }
 
 .section-container {
@@ -72,10 +72,10 @@ a img {
 }
 
 :target:before {
-content:"";
-display:block;
-height:180px; /* fixed header height*/
-margin:-180px 0 0; /* negative fixed header height */
+  content:"";
+  display:block;
+  height: 180px; /* fixed header height*/
+  margin: -180px 0 0; /* negative fixed header height */
 }
 
 /* ============= TABLE OF CONTENTS (TOC) ============== */
@@ -317,13 +317,15 @@ ul.toc {
 }
 
 .welcome-button-container {
-  width: 35%;
+  width: 36%;
   min-width: 200px;
   height: 80px;
   background-color: #323232;
   opacity: 0.7;
-  margin: auto;
-  transform: translateY(500px);
+  margin-left: 32%;
+  margin-right: 32%;
+  position: absolute;
+  bottom: 0;
 }
 
 .read-more {
@@ -779,6 +781,12 @@ hr {
 
   .hero-text-container {
     width: 350px;
+  }
+
+  .welcome-button-container {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .hero-text {
