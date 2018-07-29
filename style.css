@@ -802,6 +802,10 @@ hr {
     margin-right: 20%;
   }
 
+  .hero-image {
+    height: 100vh;
+  }
+
   .hero-text {
     width: 100%;
     margin-left: 0;
