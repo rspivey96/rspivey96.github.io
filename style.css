@@ -727,7 +727,7 @@ hr {
   .hero-image {
     background-image: url('img/alps.png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: auto;
     background-position: center;
     height: 100%;
   }
