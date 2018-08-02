@@ -33,7 +33,6 @@ a img {
 .left {
   float: left;
   font-size: 13px;
-  margin-left: 15px;
   text-transform: uppercase;
 }
 
@@ -376,6 +375,35 @@ ul.toc {
 }
 
 /* =========== ABOUT SECTION =========== */
+.about-me-contain {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#headshot {
+  width: 100%;
+  max-height: 300px;
+  max-width: 180px;
+  min-height: 200px;
+  min-width: 120px;
+}
+
+.about-text {
+  width: 70%;
+  float: left;
+}
+
+.about-img {
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  min-height: 200px;
+  min-width: 120px;
+  max-height: 300px;
+  max-width: 180px;
+}
 
 
 /* =========== RESUME SECTION =========== */
@@ -819,6 +847,10 @@ hr {
     display: inline-block;
   }
 
+  .about-me-contain {
+    font-size: 13px;
+  }
+
   .edu {
     width: 200px;
   }
@@ -979,6 +1011,10 @@ hr {
     color: #3ec7d1;
   }
 
+  .about-me-contain {
+    font-size: 16px;
+  }
+
   #or-container {
       width: 80%;
   }
@@ -1011,7 +1047,7 @@ hr {
   .item {
     display: inline-block;
   }
-  
+
   .edu {
     width: 200px;
   }
